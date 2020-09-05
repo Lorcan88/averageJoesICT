@@ -49,26 +49,6 @@ const member = {
     response.redirect("/member/" + memberId);
   },
 
-  /*addComment(request, response) {
-    const memberId = request.params.id;
-    const assessmentId = request.params.id;
-    const assessment = memberStore.getAssessment(memberId, assessmentId)
-    const newComment = {
-      Comment: request.body.Comment,
-    };
-    logger.debug(`Updating Assessment ${assessmentId} from Member ${memberId}`)
-    memberStore.addComment(assessment, newComment);
-    response.redirect("/dashboardMemberView/" + memberId);
-  },*/
-
-  /*deleteComment(request, response) {
-    const memberId = request.params.id;
-    const commentId = request.params.commentid;
-    logger.debug(`Deleting Assessment ${commentId} from Member ${memberId}`);
-    memberStore.removeComment(memberId, commentId);
-    response.redirect("/member/" + memberId);
-  },*/
-
   editMember(request, response) {
     const memberId = request.params.id;
     logger.debug(`Editing Member ${memberId}`);

@@ -29,10 +29,6 @@ router.get("/member/:id", member.index);
 router.get("/member/:id/deleteassessment/:assessmentid", member.deleteAssessment);
 router.post("/member/:id/addassessment", member.addAssessment);
 
-//router.get("/memberDashboard/:id", member.index);
-//router.get("/memberDashboard/:id/deleteassessment/:assessmentid", member.deleteAssessment);
-//router.post("/memberDashboard/:id/addassessment", member.addAssessment);
-//router.post("/addcomment/:id", member.addComment);
 router.get("/settings/:id/editmember", member.editMember);
 router.post("/settings/:id/updatemember", member.update);
 
