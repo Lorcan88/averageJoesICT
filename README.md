@@ -1,4 +1,4 @@
-Welcome to the Playlist 3
+Welcome to the Average joes
 =========================
 
-Version 3 of the Playlist application
+Version 3 of the Average joes application
