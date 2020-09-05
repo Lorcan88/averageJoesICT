@@ -1,0 +1,38 @@
+{{>menu}}
+<section class="ui center aligned middle aligned segment">
+    <section class="ui center aligned segment">
+        <div class="ui four column center aligned grid basic segment">
+            <div class="column">
+                <i class=" huge user icon"></i>
+                <header class="ui header">
+                    {{member.firstName}} {{member.lastName}}
+                </header>
+            </div>
+            <div class="column">
+                {{#if isIdealBodyWeight }}<i class=" green tachometer alternate icon huge icon"></i>
+                {{else}}<i class="red tachometer alternate icon huge icon"></i>
+                {{/if}}
+                <header class="ui header">
+                    IDEAL WEIGHT INDICATOR
+                </header>
+            </div>
+            <div class ="column">
+                <header class = "ui header">BMI</header>
+                <i class="red big heartbeat icon"></i>
+                <header class = "ui header" >
+                    {{BMI}}
+                </header>
+            </div>
+            <div class ="column">
+                <header class="ui header">
+                    BMI Range
+                </header>
+                <i class="big user md icon"></i>
+                <header class="ui header">
+                    {{idealBodyWeight}}
+                </header>
+            </div>
+        </div>
+    </section>
+    {{> listassessmentsTrainerView}}
+</section>

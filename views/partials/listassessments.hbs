@@ -1,0 +1,63 @@
+<table class="ui center aligned table">
+  <thead>
+    <tr>
+        <th>Date</th>
+        <th></th>
+        <th>Weight</th>
+        <th>Chest</th>
+        <th>Thigh</th>
+        <th>Upper Arm</th>
+        <th>Waist</th>
+        <th>Hips</th>
+        <th>Comment</th>
+      <th>Trend</th>
+        <th></th>
+        <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each member.assessments}}
+      <tr>
+          <td>
+            {{Date}}
+          </td>
+          <td>
+          </td>
+          <td>
+              {{Weight}}
+          </td>
+          <td>
+              {{Chest}}
+          </td>
+          <td>
+              {{Thigh}}
+          </td>
+          <td>
+              {{UpperArm}}
+          </td>
+          <td>
+              {{Waist}}
+          </td>
+          <td>
+              {{Hips}}
+          </td>
+          <td>
+              {{Comment}}
+          </td>
+        <td>
+          {{#if trend }}<i class="green big long arrow alternate down icon"></i>
+          {{else}}<i class="red big long arrow alternate up icon"></i>
+          {{/if}}
+        </td>
+          <td>
+              <a href="/assessment/{{../member.id}}/editassessment/{{id}}" class="ui icon button">
+                  <i class="ui blue pencil alternate icon"></i>
+              </a>
+          <a href="/member/{{../member.id}}/deleteAssessment/{{id}}" class="ui icon button">
+            <i class="ui red icon trash"></i>
+          </a>
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

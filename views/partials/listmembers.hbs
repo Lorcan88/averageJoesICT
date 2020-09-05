@@ -1,0 +1,14 @@
+{{#each members}}
+  <section class="ui stacked segment">
+    <h2 class="ui header">
+      {{firstName}}
+    </h2>
+    <p> Total Number of Assessments: {{assessments.length}} </p>
+    <a href="/dashboardMemberView/{{id}}" class="ui icon button">
+      <i class="icon black folder open"></i>
+    </a>
+    <a href="/dashboard/deleteMember/{{id}}" class="ui icon button">
+      <i class="icon red trash"></i>
+    </a>
+  </section>
+{{/each}}

@@ -1,0 +1,61 @@
+{{#each member.assessments}}
+<table class="ui table">
+    <thead>
+    <tr>
+        <th>Date</th>
+        <th></th>
+        <th>Weight</th>
+        <th>Chest</th>
+        <th>Thigh</th>
+        <th>Upper Arm</th>
+        <th>Waist</th>
+        <th>Hips</th>
+        <th>Comment</th>
+      <th>Trend</th>
+        <th> </th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+            {{Date}}
+            </td>
+            <td>
+            </td>
+            <td>
+                {{Weight}}
+            </td>
+            <td>
+                {{Chest}}
+            </td>
+            <td>
+                {{Thigh}}
+            </td>
+            <td>
+                {{UpperArm}}
+            </td>
+            <td>
+                {{Waist}}
+            </td>
+            <td>
+                {{Hips}}
+            </td>
+            <td>
+                {{Comment}}
+            </td>
+          <td>
+            {{#if trend }}<i class="green big long arrow alternate down icon"></i>
+            {{else}}<i class="red big long arrow alternate up icon"></i>
+            {{/if}}
+          </td>
+        </tr>
+    </tbody>
+</table>
+<form class="ui stacked segment form" action="/dashboardMemberView/{{../member.id}}/addcomment/{{id}}" method="POST">
+    <div class="field">
+        <label>Comment</label>
+        <input placeholder="Add Comment" type="text" name="Comment">
+    </div>
+    <button class="ui blue submit button">Submit</button>
+</form>
+{{/each}}

@@ -1,0 +1,165 @@
+{
+  "memberCollection": [
+    {
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "address": "36 Woodberry Heights",
+      "gender": "Male",
+      "height": "172",
+      "startingWeight": "78",
+      "id": "c1688740-eef6-11ea-8643-f1da36c75ebe",
+      "userid": "c168ae50-eef6-11ea-8643-f1da36c75ebe",
+      "assessments": [
+        {
+          "id": "a387cbe0-eef7-11ea-a93b-29ce6cd34af4",
+          "Date": "Fri, 04 Sep 2020 21:43:15 GMT",
+          "Weight": 68,
+          "Chest": 100,
+          "Thigh": 58,
+          "UpperArm": 38,
+          "Waist": 89,
+          "Hips": 94,
+          "trend": true,
+          "Comment": "Very god Work"
+        },
+        {
+          "id": "8d3d7790-eef7-11ea-a93b-29ce6cd34af4",
+          "Date": "Fri, 04 Sep 2020 21:42:38 GMT",
+          "Weight": 70,
+          "Chest": 108,
+          "Thigh": 60,
+          "UpperArm": 38,
+          "Waist": 90,
+          "Hips": 94,
+          "trend": true,
+          "Comment": "Very god Work"
+        },
+        {
+          "id": "74bd5780-eef7-11ea-8ae3-df51c7156d30",
+          "Date": "Fri, 04 Sep 2020 21:41:57 GMT",
+          "Weight": 72,
+          "Chest": 109,
+          "Thigh": 60,
+          "UpperArm": 38,
+          "Waist": 90,
+          "Hips": 95,
+          "trend": true,
+          "Comment": "wow"
+        },
+        {
+          "id": "5430d280-eef7-11ea-8f86-f35a3c74818d",
+          "Date": "Fri, 04 Sep 2020 21:41:02 GMT",
+          "Weight": 73,
+          "Chest": 110,
+          "Thigh": 63,
+          "UpperArm": 38,
+          "Waist": 91,
+          "Hips": 95,
+          "trend": true,
+          "Comment": "Very god Work"
+        },
+        {
+          "id": "43e511c0-eef7-11ea-8f86-f35a3c74818d",
+          "Date": "Fri, 04 Sep 2020 21:40:35 GMT",
+          "Weight": 75,
+          "Chest": 115,
+          "Thigh": 63,
+          "UpperArm": 38,
+          "Waist": 91,
+          "Hips": 95,
+          "trend": true,
+          "Comment": "slow down"
+        },
+        {
+          "id": "2406ce20-eef7-11ea-8643-f1da36c75ebe",
+          "Date": "Fri, 04 Sep 2020 21:39:41 GMT",
+          "Weight": 78,
+          "Chest": 115,
+          "Thigh": 63,
+          "UpperArm": 38,
+          "Waist": 91,
+          "Hips": 95,
+          "trend": false,
+          "Comment": "good start"
+        }
+      ]
+    },
+    {
+      "firstName": "Lorcan",
+      "lastName": "Crean",
+      "email": "lorcancrean12@gmail.com",
+      "password": "secret",
+      "address": "36 Woodberry Heights",
+      "gender": "Male",
+      "height": "172",
+      "startingWeight": "78",
+      "id": "c9bccaa0-eef6-11ea-8643-f1da36c75ebe",
+      "userid": "c9bccaa1-eef6-11ea-8643-f1da36c75ebe",
+      "assessments": [
+        {
+          "id": "3dff8f00-eef8-11ea-9444-05a3fc6268ba",
+          "Date": "Fri, 04 Sep 2020 21:47:34 GMT",
+          "Weight": 75,
+          "Chest": 113,
+          "Thigh": 62,
+          "UpperArm": 38,
+          "Waist": 90,
+          "Hips": 95,
+          "trend": true,
+          "Comment": "good job"
+        },
+        {
+          "id": "0d4de410-eef8-11ea-a9ab-d186a66a0a6e",
+          "Date": "Fri, 04 Sep 2020 21:46:13 GMT",
+          "Weight": 76,
+          "Chest": 114,
+          "Thigh": 63,
+          "UpperArm": 38,
+          "Waist": 91,
+          "Hips": 95,
+          "trend": true,
+          "Comment": "Wow way to go"
+        },
+        {
+          "id": "de51d860-eef7-11ea-8fb7-3be405cf1d97",
+          "Date": "Fri, 04 Sep 2020 21:44:54 GMT",
+          "Weight": 76,
+          "Chest": 114,
+          "Thigh": 63,
+          "UpperArm": 38,
+          "Waist": 91,
+          "Hips": 95,
+          "trend": true,
+          "Comment": "You got this"
+        },
+        {
+          "id": "2406ce20-eef7-11ea-8643-f1da36c75ebe",
+          "Date": "Fri, 04 Sep 2020 21:39:41 GMT",
+          "Weight": 78,
+          "Chest": 115,
+          "Thigh": 63,
+          "UpperArm": 38,
+          "Waist": 91,
+          "Hips": 95,
+          "trend": false,
+          "Comment": "good start"
+        }
+      ]
+    },
+    {
+      "firstName": "c",
+      "lastName": "",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "address": "",
+      "gender": "",
+      "height": "",
+      "startingWeight": "70",
+      "id": "b5cc7cd0-eeff-11ea-bd1e-5d8e2d917e89",
+      "userid": "b5cc7cd1-eeff-11ea-bd1e-5d8e2d917e89",
+      "assessments": []
+    }
+  ]
+}
